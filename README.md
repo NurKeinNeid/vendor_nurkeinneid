@@ -9,5 +9,5 @@ Just clone the project or add the following to your roomservice.xml:
 ```
 Then, add the following call in your rom makefile (ie: lineage.mk)
 ```bash
-$(call inherit-product, vendor/nurkeinneid/my-apps.mk)
+$(call inherit-product, vendor/nurkeinneid/apps.mk)
 ```
