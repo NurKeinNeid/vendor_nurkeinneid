@@ -16,7 +16,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleCameraP1Mod
-LOCAL_SRC_FILES := app/GoogleCameraP1Mod/GoogleCameraP1Mod.apk
+LOCAL_SRC_FILES := apps/GoogleCameraP1Mod.apk
 LOCAL_MODULE_OWNER := platform
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
@@ -30,7 +30,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MixPlorer
 LOCAL_MODULE_OWNER := platform
-LOCAL_SRC_FILES := app/MixPlorer/MixPlorer.apk
+LOCAL_SRC_FILES := apps/MixPlorer.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -41,7 +41,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Nova
-LOCAL_SRC_FILES := app/Nova/Nova.apk
+LOCAL_SRC_FILES := apps/Nova.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -52,7 +52,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := NovaGoogleCompanion
-LOCAL_SRC_FILES := app/NovaGoogleCompanion/NovaGoogleCompanion.apk
+LOCAL_SRC_FILES := apps/NovaGoogleCompanion.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
