@@ -14,5 +14,7 @@
 
 PRODUCT_PACKAGES += \
     Eleven \
+    GoogleCameraP1Mod \  
     Nova \
-    NovaGoogleCompanion
+    NovaGoogleCompanion \
+    MixPlorer
